@@ -1,0 +1,9 @@
+{
+  "name": "HOME",
+  "default_attributes": { },
+  "override_attributes": { },
+  "json_class": "Chef::Role",
+  "description": "For nodes who are personal.",
+  "chef_type": "role",
+  "run_list": ["UPTIME", "UPTIME::uptime", "UPTIME::info"]
+}

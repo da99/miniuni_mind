@@ -1,0 +1,4 @@
+{
+  "user": "da01",
+  "run_list": ["role[HOME]"]
+}
