@@ -46,10 +46,6 @@ end
 ruby_block "print something" do
   block do
     dir = Chef::Config[:data_bag_path].sub("data_bags", "temp")
-    require "Dahistory"
-    Dir.chdir(dir) {
-      Dahistory "../solo.rb"
-    }
-    puts "solo.rb saved"
+    puts DIR
   end
 end
